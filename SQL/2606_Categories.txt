@@ -1,0 +1,7 @@
+/**
+ * Escreva a sua solução aqui
+ * Code your solution here
+ * Escriba su solución aquí
+ */
+SELECT id,name FROM products WHERE id_categories 
+IN (SELECT id FROM Categories WHERE name LIKE 'super%')
