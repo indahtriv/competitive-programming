@@ -11,7 +11,10 @@ int main() {
      */
     int A, B, C, D, DIFERENCA;
 	
-	cin>>A>>B>>C>>D;
+	scanf("%d", &A);
+ 	scanf("%d", &B);
+ 	scanf("%d", &C);
+ 	scanf("%d", &D);
 	
 	DIFERENCA = (A*B)-(C*D);
 	

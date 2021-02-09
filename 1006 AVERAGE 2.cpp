@@ -11,7 +11,9 @@ int main() {
      */
     float A, B, C, MEDIA;
 	
-	cin>>A>>B>>C;
+	scanf("%f", &A);
+ 	scanf("%f", &B);
+ 	scanf("%f", &C);
 	
 	MEDIA = ((A*2)+(B*3)+(C*5))/10;
 	

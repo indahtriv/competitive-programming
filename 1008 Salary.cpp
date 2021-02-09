@@ -12,7 +12,9 @@ int main() {
     int NUMBER, A;
 	float B, SALARY;
 	
-	cin>>NUMBER>>A>>B;
+	scanf("%d", &NUMBER);
+ 	scanf("%d", &A);
+ 	scanf("%f", &B);
 	
 	SALARY = A*B;
 	
