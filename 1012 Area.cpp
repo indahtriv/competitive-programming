@@ -9,7 +9,7 @@ int main() {
      * Code your solution here
      * Escriba su solución aquí
      */
-    float A, B, C, TRIANGULO, CIRCULO, TRAPEZIO, QUADRADO, RETANGULO, pi = 3.14159;
+    double A, B, C, TRIANGULO, CIRCULO, TRAPEZIO, QUADRADO, RETANGULO, pi = 3.14159;
 	
  	cin>>A>>B>>C;
 	
@@ -19,11 +19,11 @@ int main() {
 	QUADRADO = B * B;
 	RETANGULO = A * B; 
 	
-	printf("TRIANGULO: %.2f\n", TRIANGULO);
-	printf("CIRCULO: %.2f\n", CIRCULO);
-	printf("TRAPEZIO: %.2f\n", TRAPEZIO);
-	printf("QUADRADO: %.2f\n", QUADRADO);
-	printf("RETANGULO: %.2f\n", RETANGULO);
+	printf("TRIANGULO: %.3lf\n", TRIANGULO);
+	printf("CIRCULO: %.3lf\n", CIRCULO);
+	printf("TRAPEZIO: %.3lf\n", TRAPEZIO);
+	printf("QUADRADO: %.3lf\n", QUADRADO);
+	printf("RETANGULO: %.3lf\n", RETANGULO);
  
     return 0;
 }
