@@ -1,0 +1,2 @@
+select nc.name from customers as nc
+inner join legal_person as lp on nc.id=lp.id_customers;
