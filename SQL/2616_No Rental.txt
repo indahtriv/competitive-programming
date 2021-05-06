@@ -1,0 +1,9 @@
+SELECT a.id, a.name 
+FROM customers AS a 
+WHERE a.id NOT IN (SELECT id_customers FROM locations);
+ 
+    /**
+     a alias dari tabel customers.
+     a.id NOT IN (SELECT id_customers FROM locations) -> menampilkan customer 
+     dimana idnya tidak terdapat pada tabel locations.
+     */
