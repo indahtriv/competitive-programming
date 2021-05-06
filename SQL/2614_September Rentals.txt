@@ -1,0 +1,9 @@
+SELECT a.name, b.rentals_date
+FROM customers AS a
+INNER JOIN rentals AS b 
+ON a.id = b.id_customers
+WHERE b.rentals_date>='2016-09-01' AND b.rentals_date<='2016-09-30'; 
+/** rentals_date : dari awal bulan 9 sampai akhir bulan 9 
+    a alias dari tabel customers
+    b alias dari tabel rentals
+*/
